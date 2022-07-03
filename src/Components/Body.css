@@ -1,0 +1,11 @@
+.body {
+  background-color: rgb(255, 153, 0);
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' version='1.1' height='200px'><text x='15' y='27%' fill='white' font-size='4rem' font-weight='600' opacity='0.1' font-family='Roobert,Helvetica Neue,Helvetica,Arial,sans-serif'>cleverprogrammer cleverprogrammer cleverprogrammer cleverprogrammer cleverprogrammer cleverprogrammer cleverprogrammer cleverprogrammer </text><text x='5' y='60%' fill='white' font-size='4rem' font-weight='600' opacity='0.1' font-family='Roobert,Helvetica Neue,Helvetica,Arial,sans-serif'>rammer cleverprogrammer cleverprogrammer cleverprogrammer cleverprogrammer cleverprogrammer cleverprogrammer cleverprogrammer cleverprog</text><text x='0' y='93%' fill='white' font-size='4rem' font-weight='600' opacity='0.1' font-family='Roobert,Helvetica Neue,Helvetica,Arial,sans-serif'>rprogrammer cleverprogrammer cleverprogrammer cleverprogrammer cleverprogrammer cleverprogrammer cleverprogrammer cleverprogrammer cleve</text></svg>");
+  flex: 1;
+  display: flex;
+  min-height: 100vh;
+}
+
+.body__left {
+  width: 100%;
+}

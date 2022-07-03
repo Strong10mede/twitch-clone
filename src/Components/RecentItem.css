@@ -1,0 +1,22 @@
+.item {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  white-space: nowrap;
+  margin-right: 1.5rem;
+}
+
+.item__details {
+  display: flex;
+  margin-top: 1.5rem;
+}
+
+.item__details > img {
+  object-fit: contain;
+  height: 3.75rem;
+  margin-right: 0.75rem;
+}
+
+.item iframe {
+  width: 100%;
+}

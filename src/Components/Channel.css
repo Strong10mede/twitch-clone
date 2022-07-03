@@ -1,0 +1,25 @@
+.channel {
+  cursor: pointer;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.channel:hover {
+  background-color: #25252c;
+}
+
+.channel__details {
+  display: flex;
+  align-items: center;
+}
+
+.channel > div > img {
+  object-fit: contain;
+  margin-right: 0.25rem;
+  width: 2.5rem;
+  border-radius: 50%;
+}
