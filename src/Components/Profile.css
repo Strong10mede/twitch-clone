@@ -39,6 +39,8 @@
 
 .profile__menu {
   display: grid;
+  text-align: center;
+  grid-template-columns: repeat(6, 1fr);
   margin-left: 2.5rem;
   margin-top: 1.75rem;
   margin-bottom: 3.5rem;
