@@ -38,7 +38,7 @@
 }
 
 .profile__menu {
-  display: flex;
+  display: grid;
   margin-left: 2.5rem;
   margin-top: 1.75rem;
   margin-bottom: 3.5rem;
@@ -99,5 +99,10 @@
 @media (max-width: 500px) {
   .profile__recentItems {
     grid-template-columns: repeat(1, 1fr);
+  }
+  .profile__menu {
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 1rem;
+    text-align: center;
   }
 }
